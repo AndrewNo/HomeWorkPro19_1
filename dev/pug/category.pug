@@ -1,0 +1,68 @@
+extends includes/main.pug
+
+block auth
+    .cat_men
+        p
+            |Hi, Michal (
+            span logout
+            |)
+    .cat_bas
+        p Basket (4)
+    .cat_find
+        input(type="text" value="Search something...")
+        button
+            img(src="./img/bg/lup.png")
+block content
+    .wrapper
+        .paginator
+            p HOME    /    Men
+        .coats
+            h2 Coats
+            p show more
+            .coats_items
+                .item
+                    h6 Double-Layered Top
+                    p € 89,95
+                .item
+                    h6 Double-Layered Top
+                    p € 89,95
+                .item
+                    h6 Double-Layered Top
+                    p € 89,95
+                .item
+                    h6 Double-Layered Top
+                    p € 89,95
+        .outerwear
+            h2 Outerwear
+            p show more
+            .outerwear_items
+                .item
+                    h6 Double-Layered Top
+                    p € 89,95
+                .item
+                    h6 Double-Layered Top
+                    p € 89,95
+                .item
+                    h6 Double-Layered Top
+                    p € 89,95
+                .item
+                    h6 Double-Layered Top
+                    p € 89,95
+        .t_shirt
+            h2 T-shirts
+            p show more
+                .t_shirt_items
+                    .item
+                        h6 Double-Layered Top
+                        p € 89,95
+                    .item
+                        h6 Double-Layered Top
+                        p € 89,95
+                    .item
+                        h6 Double-Layered Top
+                        p € 89,95
+                    .item
+                        h6 Double-Layered Top
+                        p € 89,95
+        .look
+            h6 Check our lookbook
